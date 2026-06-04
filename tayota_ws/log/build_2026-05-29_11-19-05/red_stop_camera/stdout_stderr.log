@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target red_stop_camera[0m
+[100%] Built target red_stop_camera
+-- Install configuration: ""
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/lib/red_stop_camera/red_stop_camera
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/ament_index/resource_index/package_run_dependencies/red_stop_camera
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/ament_index/resource_index/parent_prefix_path/red_stop_camera
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/environment/path.sh
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/environment/path.dsv
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/local_setup.bash
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/local_setup.sh
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/local_setup.zsh
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/local_setup.dsv
+-- Installing: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/package.dsv
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/ament_index/resource_index/packages/red_stop_camera
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/cmake/red_stop_cameraConfig.cmake
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/cmake/red_stop_cameraConfig-version.cmake
+-- Up-to-date: /home/mars/tayota_ws/install/red_stop_camera/share/red_stop_camera/package.xml

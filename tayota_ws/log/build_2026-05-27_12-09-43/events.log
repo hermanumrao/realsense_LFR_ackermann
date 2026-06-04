@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.001227] (realsense_line_follower) JobQueued: {'identifier': 'realsense_line_follower', 'dependencies': OrderedDict()}
+[0.001347] (realsense_line_follower) JobStarted: {'identifier': 'realsense_line_follower'}
+[0.032790] (realsense_line_follower) JobProgress: {'identifier': 'realsense_line_follower', 'progress': 'cmake'}
+[0.034005] (realsense_line_follower) JobProgress: {'identifier': 'realsense_line_follower', 'progress': 'build'}
+[0.038358] (realsense_line_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars/tayota_ws/build/realsense_line_follower', '--', '-j4', '-l4'], 'cwd': '/home/mars/tayota_ws/build/realsense_line_follower', 'env': OrderedDict([('USER', 'mars'), ('SNAP_INSTANCE_KEY', ''), ('SNAP_COMMON', '/var/snap/nvim/common'), ('NVIM', '/run/user/1000/nvim.6036.0'), ('XDG_SESSION_TYPE', 'wayland'), ('NVIM_LOG_FILE', '/home/mars/.local/state/nvim/nvim.log'), ('LD_LIBRARY_PATH', '/home/mars/ws_livox/install/livox_ros_driver2/lib:/home/mars/ros2_ws/install/pointcloud_to_laserscan/lib:/home/mars/ros2_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib::/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('SNAP_UID', '1000'), ('SHLVL', '2'), ('LESS', '-R'), ('OLDPWD', '/home/mars/tayota_ws/src/realsense_line_follower'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('HOME', '/home/mars'), ('DESKTOP_SESSION', 'ubuntu'), ('SNAP_USER_DATA', '/home/mars/snap/nvim/4780'), ('ZSH', '/home/mars/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('MANAGERPID', '941'), ('SYSTEMD_EXEC_PID', '1477'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('SNAP_REVISION', '4780'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5306'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mars/ros2_ws/install:/home/mars/ws_livox/install'), ('MASON', '/home/mars/.local/share/nvim/mason'), ('LOGNAME', 'mars'), ('JOURNAL_STREAM', '8:11069'), ('SNAP_CONTEXT', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', 'v0.12.2'), ('LG_CONFIG_FILE', '/home/mars/.cache/nvim/astroui-lazygit-config.yml'), ('ROS_VERSION', '2'), ('USERNAME', 'mars'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('SNAP_INSTANCE_NAME', 'nvim'), ('PATH', '/home/mars/.local/share/nvim/mason/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mars-NUC:@/tmp/.ICE-unix/1076,unix/mars-NUC:/tmp/.ICE-unix/1076'), ('INVOCATION_ID', '6d933d00d42947a69ee6d602b7ad0160'), ('XDG_MENU_PREFIX', 'gnome-'), ('SNAP_DATA', '/var/snap/nvim/4780'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GNOME_SETUP_DISPLAY', ':1'), ('DISPLAY', ':0'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '4fd07091-43db-47b7-a14e-28769d2c6b08'), ('LANG', 'en_US.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W376P3'), ('XMODIFIERS', '@im=ibus'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('SNAP_COOKIE', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('AMENT_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('SNAP_USER_COMMON', '/home/mars/snap/nvim/common'), ('SHELL', '/usr/bin/zsh'), ('SNAP_REEXEC', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('MYVIMRC', '/home/mars/.config/nvim/init.lua'), ('SNAP_NAME', 'nvim'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mars/tayota_ws/build/realsense_line_follower'), ('LC_ALL', 'en_US.UTF-8'), ('SNAP_REAL_HOME', '/home/mars'), ('XDG_DATA_DIRS', '/home/mars/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mars/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/simple_map_pub/lib/python3.10/site-packages:/home/mars/ros2_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/arduino_motor/lib/python3.10/site-packages:/home/mars/ros2_ws/install/ackermann_keyboard_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP_EUID', '1000'), ('SNAP', '/snap/nvim/4780'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('EDITOR', 'nvim')]), 'shell': False}
+[0.099349] (-) TimerEvent: {}
+[0.201329] (-) TimerEvent: {}
+[0.211939] (realsense_line_follower) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_follower\x1b[0m\n'}
+[0.297509] (realsense_line_follower) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o\x1b[0m\n'}
+[0.301495] (-) TimerEvent: {}
+[0.403204] (-) TimerEvent: {}
+[0.507294] (-) TimerEvent: {}
+[0.607767] (-) TimerEvent: {}
+[0.708275] (-) TimerEvent: {}
+[0.808721] (-) TimerEvent: {}
+[0.909257] (-) TimerEvent: {}
+[1.009716] (-) TimerEvent: {}
+[1.110491] (-) TimerEvent: {}
+[1.211124] (-) TimerEvent: {}
+[1.311679] (-) TimerEvent: {}
+[1.412207] (-) TimerEvent: {}
+[1.512675] (-) TimerEvent: {}
+[1.613134] (-) TimerEvent: {}
+[1.713762] (-) TimerEvent: {}
+[1.816686] (-) TimerEvent: {}
+[1.917211] (-) TimerEvent: {}
+[2.017925] (-) TimerEvent: {}
+[2.119306] (-) TimerEvent: {}
+[2.221561] (-) TimerEvent: {}
+[2.321996] (-) TimerEvent: {}
+[2.422478] (-) TimerEvent: {}
+[2.523062] (-) TimerEvent: {}
+[2.624173] (-) TimerEvent: {}
+[2.725506] (-) TimerEvent: {}
+[2.825999] (-) TimerEvent: {}
+[2.926463] (-) TimerEvent: {}
+[3.028537] (-) TimerEvent: {}
+[3.132859] (-) TimerEvent: {}
+[3.233730] (-) TimerEvent: {}
+[3.335350] (-) TimerEvent: {}
+[3.435919] (-) TimerEvent: {}
+[3.536423] (-) TimerEvent: {}
+[3.636895] (-) TimerEvent: {}
+[3.737370] (-) TimerEvent: {}
+[3.837882] (-) TimerEvent: {}
+[3.939283] (-) TimerEvent: {}
+[4.039760] (-) TimerEvent: {}
+[4.140286] (-) TimerEvent: {}
+[4.240755] (-) TimerEvent: {}
+[4.341274] (-) TimerEvent: {}
+[4.441849] (-) TimerEvent: {}
+[4.542321] (-) TimerEvent: {}
+[4.644041] (-) TimerEvent: {}
+[4.744588] (-) TimerEvent: {}
+[4.845093] (-) TimerEvent: {}
+[4.945792] (-) TimerEvent: {}
+[5.052439] (-) TimerEvent: {}
+[5.152958] (-) TimerEvent: {}
+[5.253438] (-) TimerEvent: {}
+[5.353942] (-) TimerEvent: {}
+[5.454832] (-) TimerEvent: {}
+[5.555282] (-) TimerEvent: {}
+[5.656286] (-) TimerEvent: {}
+[5.759653] (-) TimerEvent: {}
+[5.861230] (-) TimerEvent: {}
+[5.961698] (-) TimerEvent: {}
+[6.062207] (-) TimerEvent: {}
+[6.162706] (-) TimerEvent: {}
+[6.263164] (-) TimerEvent: {}
+[6.364061] (-) TimerEvent: {}
+[6.466791] (-) TimerEvent: {}
+[6.568521] (-) TimerEvent: {}
+[6.669267] (-) TimerEvent: {}
+[6.770411] (-) TimerEvent: {}
+[6.871260] (-) TimerEvent: {}
+[6.971718] (-) TimerEvent: {}
+[7.073339] (-) TimerEvent: {}
+[7.174148] (-) TimerEvent: {}
+[7.274778] (-) TimerEvent: {}
+[7.375310] (-) TimerEvent: {}
+[7.475829] (-) TimerEvent: {}
+[7.576316] (-) TimerEvent: {}
+[7.677937] (-) TimerEvent: {}
+[7.779571] (-) TimerEvent: {}
+[7.881859] (-) TimerEvent: {}
+[7.982790] (-) TimerEvent: {}
+[8.083693] (-) TimerEvent: {}
+[8.184247] (-) TimerEvent: {}
+[8.285044] (-) TimerEvent: {}
+[8.385611] (-) TimerEvent: {}
+[8.487793] (-) TimerEvent: {}
+[8.589764] (-) TimerEvent: {}
+[8.690303] (-) TimerEvent: {}
+[8.790763] (-) TimerEvent: {}
+[8.891275] (-) TimerEvent: {}
+[8.991814] (-) TimerEvent: {}
+[9.092822] (-) TimerEvent: {}
+[9.194596] (-) TimerEvent: {}
+[9.295092] (-) TimerEvent: {}
+[9.395756] (-) TimerEvent: {}
+[9.496296] (-) TimerEvent: {}
+[9.598131] (-) TimerEvent: {}
+[9.672596] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool LineFollower::detectRedStop(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.673392] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:71:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kcv::InputArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst cv::_InputArray&\x1b[m\x1b[K\xe2\x80\x99} from expression of type \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.673581] (realsense_line_follower) StderrLine: {'line': b'   71 |   \x1b[01;31m\x1b[Kcv::inRange(hsv, {0, 100, 100}, {10, 255, 255}, m1)\x1b[m\x1b[K;\n'}
+[9.673736] (realsense_line_follower) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.673886] (realsense_line_follower) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[9.674104] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[9.674347] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:8\x1b[m\x1b[K,\n'}
+[9.674517] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1\x1b[m\x1b[K:\n'}
+[9.674667] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:1396:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::inRange(cv::InputArray, cv::InputArray, cv::InputArray, cv::OutputArray)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.674819] (realsense_line_follower) StderrLine: {'line': b' 1396 | CV_EXPORTS_W void inRange(InputArray src, \x1b[01;36m\x1b[KInputArray lowerb\x1b[m\x1b[K,\n'}
+[9.674967] (realsense_line_follower) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.675118] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:73:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kcv::InputArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst cv::_InputArray&\x1b[m\x1b[K\xe2\x80\x99} from expression of type \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.675292] (realsense_line_follower) StderrLine: {'line': b'   73 |   \x1b[01;31m\x1b[Kcv::inRange(hsv, {170, 100, 100}, {180, 255, 255}, m2)\x1b[m\x1b[K;\n'}
+[9.675444] (realsense_line_follower) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.675600] (realsense_line_follower) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[9.675751] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[9.675975] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:8\x1b[m\x1b[K,\n'}
+[9.676129] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1\x1b[m\x1b[K:\n'}
+[9.676413] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:1396:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::inRange(cv::InputArray, cv::InputArray, cv::InputArray, cv::OutputArray)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.676572] (realsense_line_follower) StderrLine: {'line': b' 1396 | CV_EXPORTS_W void inRange(InputArray src, \x1b[01;36m\x1b[KInputArray lowerb\x1b[m\x1b[K,\n'}
+[9.676720] (realsense_line_follower) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.698274] (-) TimerEvent: {}
+[9.799317] (-) TimerEvent: {}
+[9.900052] (-) TimerEvent: {}
+[10.001028] (-) TimerEvent: {}
+[10.102250] (-) TimerEvent: {}
+[10.207342] (-) TimerEvent: {}
+[10.307852] (-) TimerEvent: {}
+[10.408387] (-) TimerEvent: {}
+[10.509454] (-) TimerEvent: {}
+[10.611297] (-) TimerEvent: {}
+[10.711848] (-) TimerEvent: {}
+[10.812452] (-) TimerEvent: {}
+[10.914066] (-) TimerEvent: {}
+[11.014761] (-) TimerEvent: {}
+[11.115272] (-) TimerEvent: {}
+[11.215744] (-) TimerEvent: {}
+[11.316295] (-) TimerEvent: {}
+[11.416843] (-) TimerEvent: {}
+[11.517408] (-) TimerEvent: {}
+[11.617879] (-) TimerEvent: {}
+[11.718659] (-) TimerEvent: {}
+[11.819150] (-) TimerEvent: {}
+[11.919634] (-) TimerEvent: {}
+[12.020666] (-) TimerEvent: {}
+[12.122447] (-) TimerEvent: {}
+[12.223247] (-) TimerEvent: {}
+[12.324045] (-) TimerEvent: {}
+[12.424949] (-) TimerEvent: {}
+[12.527377] (-) TimerEvent: {}
+[12.627832] (-) TimerEvent: {}
+[12.728427] (-) TimerEvent: {}
+[12.828979] (-) TimerEvent: {}
+[12.932378] (-) TimerEvent: {}
+[13.032952] (-) TimerEvent: {}
+[13.133713] (-) TimerEvent: {}
+[13.234753] (-) TimerEvent: {}
+[13.335489] (-) TimerEvent: {}
+[13.438316] (-) TimerEvent: {}
+[13.538831] (-) TimerEvent: {}
+[13.640425] (-) TimerEvent: {}
+[13.742650] (-) TimerEvent: {}
+[13.843121] (-) TimerEvent: {}
+[13.943605] (-) TimerEvent: {}
+[14.044053] (-) TimerEvent: {}
+[14.145118] (-) TimerEvent: {}
+[14.246770] (-) TimerEvent: {}
+[14.350190] (-) TimerEvent: {}
+[14.452148] (-) TimerEvent: {}
+[14.552786] (-) TimerEvent: {}
+[14.653319] (-) TimerEvent: {}
+[14.754003] (-) TimerEvent: {}
+[14.855309] (-) TimerEvent: {}
+[14.957431] (-) TimerEvent: {}
+[15.057889] (-) TimerEvent: {}
+[15.158309] (-) TimerEvent: {}
+[15.258779] (-) TimerEvent: {}
+[15.359855] (-) TimerEvent: {}
+[15.460293] (-) TimerEvent: {}
+[15.560815] (-) TimerEvent: {}
+[15.661274] (-) TimerEvent: {}
+[15.763007] (-) TimerEvent: {}
+[15.863488] (-) TimerEvent: {}
+[15.965300] (-) TimerEvent: {}
+[16.065861] (-) TimerEvent: {}
+[16.167895] (-) TimerEvent: {}
+[16.269286] (-) TimerEvent: {}
+[16.370195] (-) TimerEvent: {}
+[16.470687] (-) TimerEvent: {}
+[16.571153] (-) TimerEvent: {}
+[16.672144] (-) TimerEvent: {}
+[16.774570] (-) TimerEvent: {}
+[16.875394] (-) TimerEvent: {}
+[16.978300] (-) TimerEvent: {}
+[17.078824] (-) TimerEvent: {}
+[17.182076] (-) TimerEvent: {}
+[17.283017] (-) TimerEvent: {}
+[17.383887] (-) TimerEvent: {}
+[17.484924] (-) TimerEvent: {}
+[17.586143] (-) TimerEvent: {}
+[17.630736] (realsense_line_follower) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1\n'}
+[17.635427] (realsense_line_follower) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2\n'}
+[17.635830] (realsense_line_follower) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.638689] (realsense_line_follower) CommandEnded: {'returncode': 2}
+[17.675206] (realsense_line_follower) JobEnded: {'identifier': 'realsense_line_follower', 'rc': 2}
+[17.686055] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[0.038s] Invoking command in '/home/mars/tayota_ws/build/realsense_line_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4
+[0.263s] [35m[1mConsolidate compiler generated dependencies of target line_follower[0m
+[0.408s] [ 33%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o[0m
+[8.816s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:[m[K In member function ‘[01m[Kbool LineFollower::detectLineContour(const cv::Mat&, double&, double&)[m[K’:
+[8.816s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:260:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontour_min_area_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcontour_min_[m[K’?
+[8.816s]   260 |   if (area < [01;31m[Kcontour_min_area_[m[K) {
+[8.817s]       |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[8.817s]       |              [32m[Kcontour_min_[m[K
+[15.580s] gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1
+[15.580s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2
+[15.583s] gmake: *** [Makefile:146: all] Error 2
+[15.585s] Invoked command in '/home/mars/tayota_ws/build/realsense_line_follower' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4

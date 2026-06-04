@@ -1,0 +1,20 @@
+[0.030s] Invoking command in '/home/mars/tayota_ws/build/realsense_line_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target line_follower[0m
+[0.209s] [ 33%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/main.cpp.o[0m
+[0.213s] [ 66%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o[0m
+[8.138s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:120:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid LineFollower::publishRedTrigger()[m[K’
+[8.138s]   120 | void [01;31m[KLineFollower[m[K::publishRedTrigger() {
+[8.138s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[8.138s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:120:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid LineFollower::publishRedTrigger()[m[K’
+[8.139s] In file included from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1[m[K:
+[8.139s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:12:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LineFollower[m[K’ defined here
+[8.139s]    12 | class [01;36m[KLineFollower[m[K : public rclcpp::Node {
+[8.139s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[8.219s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:[m[K In member function ‘[01m[Kvoid LineFollower::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.219s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:398:5:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishRedTrigger[m[K’ was not declared in this scope
+[8.220s]   398 |     [01;31m[KpublishRedTrigger[m[K();
+[8.220s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[14.813s] gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1
+[14.813s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2
+[14.814s] gmake: *** [Makefile:146: all] Error 2
+[14.818s] Invoked command in '/home/mars/tayota_ws/build/realsense_line_follower' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4

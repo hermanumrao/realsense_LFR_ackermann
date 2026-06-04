@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.001368] (realsense_line_follower) JobQueued: {'identifier': 'realsense_line_follower', 'dependencies': OrderedDict()}
+[0.001464] (realsense_line_follower) JobStarted: {'identifier': 'realsense_line_follower'}
+[0.026835] (realsense_line_follower) JobProgress: {'identifier': 'realsense_line_follower', 'progress': 'cmake'}
+[0.028096] (realsense_line_follower) JobProgress: {'identifier': 'realsense_line_follower', 'progress': 'build'}
+[0.029481] (realsense_line_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars/tayota_ws/build/realsense_line_follower', '--', '-j4', '-l4'], 'cwd': '/home/mars/tayota_ws/build/realsense_line_follower', 'env': OrderedDict([('USER', 'mars'), ('SNAP_COMMON', '/var/snap/nvim/common'), ('SNAP_INSTANCE_KEY', ''), ('NVIM', '/run/user/1000/nvim.4442.0'), ('SSH_CLIENT', '100.68.134.123 35974 22'), ('XDG_SESSION_TYPE', 'tty'), ('NVIM_LOG_FILE', '/home/mars/.local/state/nvim/nvim.log'), ('LD_LIBRARY_PATH', '/home/mars/ws_livox/install/livox_ros_driver2/lib:/home/mars/ros2_ws/install/pointcloud_to_laserscan/lib:/home/mars/ros2_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib::/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('SNAP_UID', '1000'), ('SHLVL', '2'), ('MOTD_SHOWN', 'pam'), ('LESS', '-R'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('HOME', '/home/mars'), ('OLDPWD', '/home/mars/tayota_ws/src/realsense_line_follower'), ('SSH_TTY', '/dev/pts/5'), ('SNAP_USER_DATA', '/home/mars/snap/nvim/4780'), ('ZSH', '/home/mars/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('SNAP_REVISION', '4780'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/mars/ros2_ws/install:/home/mars/ws_livox/install'), ('MASON', '/home/mars/.local/share/nvim/mason'), ('LOGNAME', 'mars'), ('SNAP_CONTEXT', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', 'v0.12.2'), ('LG_CONFIG_FILE', '/home/mars/.cache/nvim/astroui-lazygit-config.yml'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('SNAP_INSTANCE_NAME', 'nvim'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mars/.local/share/nvim/mason/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SNAP_DATA', '/var/snap/nvim/4780'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SNAP_COOKIE', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('AMENT_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('SNAP_USER_COMMON', '/home/mars/snap/nvim/common'), ('SNAP_ARCH', 'amd64'), ('SHELL', '/usr/bin/zsh'), ('SNAP_REEXEC', ''), ('MYVIMRC', '/home/mars/.config/nvim/init.lua'), ('SNAP_NAME', 'nvim'), ('PWD', '/home/mars/tayota_ws/build/realsense_line_follower'), ('LC_ALL', 'en_US.UTF-8'), ('SNAP_REAL_HOME', '/home/mars'), ('SSH_CONNECTION', '100.68.134.123 35974 100.120.101.46 22'), ('PYTHONPATH', '/home/mars/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/simple_map_pub/lib/python3.10/site-packages:/home/mars/ros2_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/arduino_motor/lib/python3.10/site-packages:/home/mars/ros2_ws/install/ackermann_keyboard_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP_EUID', '1000'), ('SNAP', '/snap/nvim/4780'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('EDITOR', 'vim')]), 'shell': False}
+[0.098599] (-) TimerEvent: {}
+[0.147316] (realsense_line_follower) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_follower\x1b[0m\n'}
+[0.198738] (-) TimerEvent: {}
+[0.205756] (realsense_line_follower) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o\x1b[0m\n'}
+[0.298905] (-) TimerEvent: {}
+[0.399385] (-) TimerEvent: {}
+[0.499877] (-) TimerEvent: {}
+[0.600390] (-) TimerEvent: {}
+[0.700893] (-) TimerEvent: {}
+[0.801381] (-) TimerEvent: {}
+[0.901853] (-) TimerEvent: {}
+[1.002320] (-) TimerEvent: {}
+[1.102823] (-) TimerEvent: {}
+[1.203274] (-) TimerEvent: {}
+[1.303750] (-) TimerEvent: {}
+[1.404223] (-) TimerEvent: {}
+[1.504673] (-) TimerEvent: {}
+[1.605163] (-) TimerEvent: {}
+[1.705637] (-) TimerEvent: {}
+[1.806111] (-) TimerEvent: {}
+[1.906581] (-) TimerEvent: {}
+[2.007063] (-) TimerEvent: {}
+[2.107529] (-) TimerEvent: {}
+[2.208009] (-) TimerEvent: {}
+[2.308485] (-) TimerEvent: {}
+[2.408939] (-) TimerEvent: {}
+[2.509389] (-) TimerEvent: {}
+[2.609873] (-) TimerEvent: {}
+[2.710358] (-) TimerEvent: {}
+[2.810837] (-) TimerEvent: {}
+[2.911292] (-) TimerEvent: {}
+[3.011781] (-) TimerEvent: {}
+[3.112232] (-) TimerEvent: {}
+[3.212720] (-) TimerEvent: {}
+[3.313197] (-) TimerEvent: {}
+[3.413637] (-) TimerEvent: {}
+[3.514114] (-) TimerEvent: {}
+[3.614582] (-) TimerEvent: {}
+[3.715041] (-) TimerEvent: {}
+[3.815503] (-) TimerEvent: {}
+[3.916015] (-) TimerEvent: {}
+[4.016497] (-) TimerEvent: {}
+[4.116897] (-) TimerEvent: {}
+[4.217350] (-) TimerEvent: {}
+[4.317845] (-) TimerEvent: {}
+[4.418545] (-) TimerEvent: {}
+[4.518998] (-) TimerEvent: {}
+[4.619455] (-) TimerEvent: {}
+[4.719956] (-) TimerEvent: {}
+[4.820420] (-) TimerEvent: {}
+[4.920887] (-) TimerEvent: {}
+[5.021369] (-) TimerEvent: {}
+[5.121844] (-) TimerEvent: {}
+[5.222305] (-) TimerEvent: {}
+[5.322757] (-) TimerEvent: {}
+[5.423204] (-) TimerEvent: {}
+[5.523648] (-) TimerEvent: {}
+[5.624117] (-) TimerEvent: {}
+[5.724559] (-) TimerEvent: {}
+[5.825020] (-) TimerEvent: {}
+[5.925489] (-) TimerEvent: {}
+[6.025958] (-) TimerEvent: {}
+[6.126385] (-) TimerEvent: {}
+[6.226860] (-) TimerEvent: {}
+[6.327324] (-) TimerEvent: {}
+[6.427775] (-) TimerEvent: {}
+[6.528232] (-) TimerEvent: {}
+[6.628728] (-) TimerEvent: {}
+[6.729222] (-) TimerEvent: {}
+[6.829721] (-) TimerEvent: {}
+[6.930240] (-) TimerEvent: {}
+[7.030732] (-) TimerEvent: {}
+[7.131267] (-) TimerEvent: {}
+[7.231778] (-) TimerEvent: {}
+[7.332265] (-) TimerEvent: {}
+[7.432748] (-) TimerEvent: {}
+[7.533228] (-) TimerEvent: {}
+[7.633675] (-) TimerEvent: {}
+[7.734148] (-) TimerEvent: {}
+[7.834621] (-) TimerEvent: {}
+[7.935086] (-) TimerEvent: {}
+[8.035553] (-) TimerEvent: {}
+[8.136011] (-) TimerEvent: {}
+[8.236693] (-) TimerEvent: {}
+[8.337152] (-) TimerEvent: {}
+[8.437587] (-) TimerEvent: {}
+[8.538076] (-) TimerEvent: {}
+[8.638551] (-) TimerEvent: {}
+[8.739027] (-) TimerEvent: {}
+[8.839532] (-) TimerEvent: {}
+[8.939996] (-) TimerEvent: {}
+[9.040477] (-) TimerEvent: {}
+[9.140993] (-) TimerEvent: {}
+[9.241482] (-) TimerEvent: {}
+[9.341931] (-) TimerEvent: {}
+[9.442432] (-) TimerEvent: {}
+[9.542929] (-) TimerEvent: {}
+[9.643414] (-) TimerEvent: {}
+[9.743896] (-) TimerEvent: {}
+[9.844373] (-) TimerEvent: {}
+[9.944859] (-) TimerEvent: {}
+[10.045334] (-) TimerEvent: {}
+[10.145816] (-) TimerEvent: {}
+[10.246285] (-) TimerEvent: {}
+[10.346726] (-) TimerEvent: {}
+[10.447202] (-) TimerEvent: {}
+[10.547642] (-) TimerEvent: {}
+[10.648111] (-) TimerEvent: {}
+[10.748617] (-) TimerEvent: {}
+[10.849083] (-) TimerEvent: {}
+[10.949557] (-) TimerEvent: {}
+[11.050024] (-) TimerEvent: {}
+[11.150490] (-) TimerEvent: {}
+[11.250942] (-) TimerEvent: {}
+[11.351419] (-) TimerEvent: {}
+[11.451904] (-) TimerEvent: {}
+[11.552397] (-) TimerEvent: {}
+[11.652861] (-) TimerEvent: {}
+[11.753325] (-) TimerEvent: {}
+[11.853791] (-) TimerEvent: {}
+[11.954273] (-) TimerEvent: {}
+[12.054738] (-) TimerEvent: {}
+[12.155222] (-) TimerEvent: {}
+[12.255691] (-) TimerEvent: {}
+[12.356149] (-) TimerEvent: {}
+[12.456616] (-) TimerEvent: {}
+[12.557070] (-) TimerEvent: {}
+[12.657562] (-) TimerEvent: {}
+[12.758030] (-) TimerEvent: {}
+[12.858482] (-) TimerEvent: {}
+[12.958926] (-) TimerEvent: {}
+[13.059402] (-) TimerEvent: {}
+[13.159886] (-) TimerEvent: {}
+[13.260358] (-) TimerEvent: {}
+[13.360842] (-) TimerEvent: {}
+[13.461297] (-) TimerEvent: {}
+[13.561771] (-) TimerEvent: {}
+[13.662232] (-) TimerEvent: {}
+[13.762677] (-) TimerEvent: {}
+[13.863142] (-) TimerEvent: {}
+[13.963608] (-) TimerEvent: {}
+[14.064073] (-) TimerEvent: {}
+[14.164535] (-) TimerEvent: {}
+[14.264988] (-) TimerEvent: {}
+[14.365452] (-) TimerEvent: {}
+[14.465924] (-) TimerEvent: {}
+[14.566383] (-) TimerEvent: {}
+[14.666863] (-) TimerEvent: {}
+[14.767341] (-) TimerEvent: {}
+[14.867812] (-) TimerEvent: {}
+[14.968293] (-) TimerEvent: {}
+[15.068788] (-) TimerEvent: {}
+[15.169300] (-) TimerEvent: {}
+[15.269871] (-) TimerEvent: {}
+[15.370402] (-) TimerEvent: {}
+[15.470928] (-) TimerEvent: {}
+[15.571411] (-) TimerEvent: {}
+[15.671882] (-) TimerEvent: {}
+[15.772322] (-) TimerEvent: {}
+[15.872772] (-) TimerEvent: {}
+[15.973274] (-) TimerEvent: {}
+[16.073737] (-) TimerEvent: {}
+[16.174193] (-) TimerEvent: {}
+[16.274664] (-) TimerEvent: {}
+[16.375115] (-) TimerEvent: {}
+[16.475554] (-) TimerEvent: {}
+[16.576013] (-) TimerEvent: {}
+[16.676471] (-) TimerEvent: {}
+[16.776895] (-) TimerEvent: {}
+[16.877356] (-) TimerEvent: {}
+[16.977907] (-) TimerEvent: {}
+[17.078386] (-) TimerEvent: {}
+[17.178854] (-) TimerEvent: {}
+[17.279368] (-) TimerEvent: {}
+[17.379843] (-) TimerEvent: {}
+[17.480340] (-) TimerEvent: {}
+[17.580851] (-) TimerEvent: {}
+[17.681329] (-) TimerEvent: {}
+[17.781812] (-) TimerEvent: {}
+[17.882269] (-) TimerEvent: {}
+[17.982816] (-) TimerEvent: {}
+[18.083280] (-) TimerEvent: {}
+[18.183744] (-) TimerEvent: {}
+[18.284210] (-) TimerEvent: {}
+[18.384677] (-) TimerEvent: {}
+[18.485135] (-) TimerEvent: {}
+[18.585599] (-) TimerEvent: {}
+[18.686051] (-) TimerEvent: {}
+[18.786502] (-) TimerEvent: {}
+[18.886927] (-) TimerEvent: {}
+[18.987384] (-) TimerEvent: {}
+[19.087834] (-) TimerEvent: {}
+[19.188281] (-) TimerEvent: {}
+[19.288712] (-) TimerEvent: {}
+[19.389160] (-) TimerEvent: {}
+[19.489612] (-) TimerEvent: {}
+[19.590052] (-) TimerEvent: {}
+[19.690492] (-) TimerEvent: {}
+[19.790927] (-) TimerEvent: {}
+[19.891398] (-) TimerEvent: {}
+[19.991844] (-) TimerEvent: {}
+[20.092286] (-) TimerEvent: {}
+[20.192746] (-) TimerEvent: {}
+[20.293213] (-) TimerEvent: {}
+[20.393662] (-) TimerEvent: {}
+[20.494109] (-) TimerEvent: {}
+[20.594590] (-) TimerEvent: {}
+[20.695031] (-) TimerEvent: {}
+[20.795475] (-) TimerEvent: {}
+[20.895918] (-) TimerEvent: {}
+[20.996379] (-) TimerEvent: {}
+[21.096826] (-) TimerEvent: {}
+[21.197664] (-) TimerEvent: {}
+[21.298121] (-) TimerEvent: {}
+[21.398555] (-) TimerEvent: {}
+[21.499003] (-) TimerEvent: {}
+[21.599440] (-) TimerEvent: {}
+[21.699939] (-) TimerEvent: {}
+[21.800392] (-) TimerEvent: {}
+[21.900838] (-) TimerEvent: {}
+[22.001308] (-) TimerEvent: {}
+[22.101777] (-) TimerEvent: {}
+[22.159832] (realsense_line_follower) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable line_follower\x1b[0m\n'}
+[22.201926] (-) TimerEvent: {}
+[22.302357] (-) TimerEvent: {}
+[22.402836] (-) TimerEvent: {}
+[22.503312] (-) TimerEvent: {}
+[22.603763] (-) TimerEvent: {}
+[22.704232] (-) TimerEvent: {}
+[22.804694] (-) TimerEvent: {}
+[22.905147] (-) TimerEvent: {}
+[23.005590] (-) TimerEvent: {}
+[23.106025] (-) TimerEvent: {}
+[23.206460] (-) TimerEvent: {}
+[23.306932] (-) TimerEvent: {}
+[23.407389] (-) TimerEvent: {}
+[23.507837] (-) TimerEvent: {}
+[23.608306] (-) TimerEvent: {}
+[23.708778] (-) TimerEvent: {}
+[23.809271] (-) TimerEvent: {}
+[23.909751] (-) TimerEvent: {}
+[24.010252] (-) TimerEvent: {}
+[24.110791] (-) TimerEvent: {}
+[24.211294] (-) TimerEvent: {}
+[24.311748] (-) TimerEvent: {}
+[24.412254] (-) TimerEvent: {}
+[24.512737] (-) TimerEvent: {}
+[24.604503] (realsense_line_follower) StdoutLine: {'line': b'[100%] Built target line_follower\n'}
+[24.612880] (-) TimerEvent: {}
+[24.631241] (realsense_line_follower) CommandEnded: {'returncode': 0}
+[24.632372] (realsense_line_follower) JobProgress: {'identifier': 'realsense_line_follower', 'progress': 'install'}
+[24.656346] (realsense_line_follower) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mars/tayota_ws/build/realsense_line_follower'], 'cwd': '/home/mars/tayota_ws/build/realsense_line_follower', 'env': OrderedDict([('USER', 'mars'), ('SNAP_COMMON', '/var/snap/nvim/common'), ('SNAP_INSTANCE_KEY', ''), ('NVIM', '/run/user/1000/nvim.4442.0'), ('SSH_CLIENT', '100.68.134.123 35974 22'), ('XDG_SESSION_TYPE', 'tty'), ('NVIM_LOG_FILE', '/home/mars/.local/state/nvim/nvim.log'), ('LD_LIBRARY_PATH', '/home/mars/ws_livox/install/livox_ros_driver2/lib:/home/mars/ros2_ws/install/pointcloud_to_laserscan/lib:/home/mars/ros2_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib::/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('SNAP_UID', '1000'), ('SHLVL', '2'), ('MOTD_SHOWN', 'pam'), ('LESS', '-R'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('HOME', '/home/mars'), ('OLDPWD', '/home/mars/tayota_ws/src/realsense_line_follower'), ('SSH_TTY', '/dev/pts/5'), ('SNAP_USER_DATA', '/home/mars/snap/nvim/4780'), ('ZSH', '/home/mars/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('SNAP_REVISION', '4780'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/mars/ros2_ws/install:/home/mars/ws_livox/install'), ('MASON', '/home/mars/.local/share/nvim/mason'), ('LOGNAME', 'mars'), ('SNAP_CONTEXT', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', 'v0.12.2'), ('LG_CONFIG_FILE', '/home/mars/.cache/nvim/astroui-lazygit-config.yml'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('SNAP_INSTANCE_NAME', 'nvim'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mars/.local/share/nvim/mason/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SNAP_DATA', '/var/snap/nvim/4780'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SNAP_COOKIE', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('AMENT_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('SNAP_USER_COMMON', '/home/mars/snap/nvim/common'), ('SNAP_ARCH', 'amd64'), ('SHELL', '/usr/bin/zsh'), ('SNAP_REEXEC', ''), ('MYVIMRC', '/home/mars/.config/nvim/init.lua'), ('SNAP_NAME', 'nvim'), ('PWD', '/home/mars/tayota_ws/build/realsense_line_follower'), ('LC_ALL', 'en_US.UTF-8'), ('SNAP_REAL_HOME', '/home/mars'), ('SSH_CONNECTION', '100.68.134.123 35974 100.120.101.46 22'), ('PYTHONPATH', '/home/mars/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/simple_map_pub/lib/python3.10/site-packages:/home/mars/ros2_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/arduino_motor/lib/python3.10/site-packages:/home/mars/ros2_ws/install/ackermann_keyboard_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP_EUID', '1000'), ('SNAP', '/snap/nvim/4780'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('EDITOR', 'vim')]), 'shell': False}
+[24.676061] (realsense_line_follower) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.676888] (realsense_line_follower) StdoutLine: {'line': b'-- Installing: /home/mars/tayota_ws/install/realsense_line_follower/lib/realsense_line_follower/line_follower\n'}
+[24.688825] (realsense_line_follower) StdoutLine: {'line': b'-- Set runtime path of "/home/mars/tayota_ws/install/realsense_line_follower/lib/realsense_line_follower/line_follower" to ""\n'}
+[24.689251] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/launch\n'}
+[24.689428] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/launch/line_follow.launch.py\n'}
+[24.689592] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/config\n'}
+[24.689863] (realsense_line_follower) StdoutLine: {'line': b'-- Installing: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/config/params.yaml\n'}
+[24.690091] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/ament_index/resource_index/package_run_dependencies/realsense_line_follower\n'}
+[24.690261] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/ament_index/resource_index/parent_prefix_path/realsense_line_follower\n'}
+[24.690425] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/ament_prefix_path.sh\n'}
+[24.690721] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/ament_prefix_path.dsv\n'}
+[24.690979] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/path.sh\n'}
+[24.691151] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/path.dsv\n'}
+[24.691312] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.bash\n'}
+[24.691504] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.sh\n'}
+[24.691701] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.zsh\n'}
+[24.691872] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.dsv\n'}
+[24.692038] (realsense_line_follower) StdoutLine: {'line': b'-- Installing: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/package.dsv\n'}
+[24.692194] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/ament_index/resource_index/packages/realsense_line_follower\n'}
+[24.692368] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/cmake/realsense_line_followerConfig.cmake\n'}
+[24.692664] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/cmake/realsense_line_followerConfig-version.cmake\n'}
+[24.692838] (realsense_line_follower) StdoutLine: {'line': b'-- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/package.xml\n'}
+[24.695279] (realsense_line_follower) CommandEnded: {'returncode': 0}
+[24.713189] (-) TimerEvent: {}
+[24.734370] (realsense_line_follower) JobEnded: {'identifier': 'realsense_line_follower', 'rc': 0}
+[24.735481] (-) EventReactorShutdown: {}

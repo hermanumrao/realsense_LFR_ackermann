@@ -1,0 +1,19 @@
+##[pylyzer] failed /home/mars/tayota_ws/src/robot_bringup/launch/autonomous.launch.py 1780041389 1420
+.___v_desugar_1 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.LaunchDescription: Never
+.___v_desugar_2 = pyimport "__init__"
+
+.IncludeLaunchDescription: Never
+.___v_desugar_3 = pyimport "__init__"
+
+.PythonLaunchDescriptionSource: {python_launch_description_source.PythonLaunchDescriptionSource}
+.___v_desugar_4 = pyimport "__init__"
+
+.Node: {node.Node}
+.___v_desugar_5 = pyimport "packages"
+.packages = pyimport "packages"
+.get_package_share_directory: (package_name: Bool, print_warning: Structural({.__and__ = (self: Never, Bool) -> Bool}) := {True} and Structural({.__and__ = (self: Never, Bool) -> Bool})) -> Never
+.os: Never
+
+.generate_launch_description: () -> Never

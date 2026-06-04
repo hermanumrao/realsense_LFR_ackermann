@@ -1,0 +1,44 @@
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:[m[K In member function ‘[01m[Kbool LineFollower::detectLineContour(const cv::Mat&, double&, double&)[m[K’:
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:230:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ was not declared in this scope
+  230 |   for (size_t i = 0; i < [01;31m[Kcontours[m[K.size(); i++) {
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:231:16:[m[K [01;31m[Kerror: [m[K‘[01m[KcontourArea[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::contourArea[m[K’?
+  231 |     double a = [01;31m[KcontourArea[m[K(contours[i]);
+      |                [01;31m[K^~~~~~~~~~~[m[K
+      |                [32m[Kcv::contourArea[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:8[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1[m[K:
+[01m[K/usr/include/opencv4/opencv2/imgproc.hpp:3993:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::contourArea[m[K’ declared here
+ 3993 | CV_EXPORTS_W double [01;36m[KcontourArea[m[K( InputArray contour, bool oriented = false );
+      |                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:243:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ was not declared in this scope; did you mean ‘[01m[Kcontour[m[K’?
+  243 |   auto contour = [01;31m[Kcontours[m[K[idx];
+      |                  [01;31m[K^~~~~~~~[m[K
+      |                  [32m[Kcontour[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:245:18:[m[K [01;31m[Kerror: [m[K‘[01m[KboundingRect[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::boundingRect[m[K’?
+  245 |   cv::Rect box = [01;31m[KboundingRect[m[K(contour);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+      |                  [32m[Kcv::boundingRect[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:8[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1[m[K:
+[01m[K/usr/include/opencv4/opencv2/imgproc.hpp:3961:19:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::boundingRect[m[K’ declared here
+ 3961 | CV_EXPORTS_W Rect [01;36m[KboundingRect[m[K( InputArray array );
+      |                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:246:17:[m[K [01;31m[Kerror: [m[K‘[01m[KcontourArea[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::contourArea[m[K’?
+  246 |   double area = [01;31m[KcontourArea[m[K(contour);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+      |                 [32m[Kcv::contourArea[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:8[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1[m[K:
+[01m[K/usr/include/opencv4/opencv2/imgproc.hpp:3993:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::contourArea[m[K’ declared here
+ 3993 | CV_EXPORTS_W double [01;36m[KcontourArea[m[K( InputArray contour, bool oriented = false );
+      |                     [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

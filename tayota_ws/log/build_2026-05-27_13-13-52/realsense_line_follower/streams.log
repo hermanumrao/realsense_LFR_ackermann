@@ -1,0 +1,15 @@
+[0.029s] Invoking command in '/home/mars/tayota_ws/build/realsense_line_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target line_follower[0m
+[0.207s] [ 33%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o[0m
+[8.035s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:[m[K In member function ‘[01m[Kbool LineFollower::detectLineContour(const cv::Mat&, double&, double&)[m[K’:
+[8.035s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:230:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ was not declared in this scope
+[8.035s]   230 |   for (size_t i = 0; i < [01;31m[Kcontours[m[K.size(); i++) {
+[8.035s]       |                          [01;31m[K^~~~~~~~[m[K
+[8.036s] [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:243:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcontourArea[m[K’?
+[8.036s]   243 |   auto contour = cv::[01;31m[Kcontours[m[K[idx];
+[8.036s]       |                      [01;31m[K^~~~~~~~[m[K
+[8.037s]       |                      [32m[KcontourArea[m[K
+[14.564s] gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1
+[14.565s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2
+[14.565s] gmake: *** [Makefile:146: all] Error 2
+[14.569s] Invoked command in '/home/mars/tayota_ws/build/realsense_line_follower' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4

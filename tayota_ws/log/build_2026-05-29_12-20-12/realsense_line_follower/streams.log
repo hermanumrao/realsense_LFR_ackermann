@@ -1,0 +1,27 @@
+[0.045s] Invoking command in '/home/mars/tayota_ws/build/realsense_line_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target line_follower[0m
+[0.226s] [100%] Built target line_follower
+[0.260s] Invoked command in '/home/mars/tayota_ws/build/realsense_line_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/mars/tayota_ws/build/realsense_line_follower -- -j4 -l4
+[0.263s] Invoking command in '/home/mars/tayota_ws/build/realsense_line_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/mars/tayota_ws/build/realsense_line_follower
+[0.285s] -- Install configuration: ""
+[0.285s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/lib/realsense_line_follower/line_follower
+[0.285s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/launch
+[0.286s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/launch/line_follow.launch.py
+[0.286s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/config
+[0.287s] -- Installing: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/config/params.yaml
+[0.288s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/ament_index/resource_index/package_run_dependencies/realsense_line_follower
+[0.289s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/ament_index/resource_index/parent_prefix_path/realsense_line_follower
+[0.289s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/ament_prefix_path.dsv
+[0.289s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/path.sh
+[0.290s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/environment/path.dsv
+[0.290s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.bash
+[0.290s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.sh
+[0.290s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.zsh
+[0.291s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/local_setup.dsv
+[0.291s] -- Installing: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/package.dsv
+[0.291s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/ament_index/resource_index/packages/realsense_line_follower
+[0.292s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/cmake/realsense_line_followerConfig.cmake
+[0.292s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/cmake/realsense_line_followerConfig-version.cmake
+[0.293s] -- Up-to-date: /home/mars/tayota_ws/install/realsense_line_follower/share/realsense_line_follower/package.xml
+[0.332s] Invoked command in '/home/mars/tayota_ws/build/realsense_line_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/mars/tayota_ws/build/realsense_line_follower

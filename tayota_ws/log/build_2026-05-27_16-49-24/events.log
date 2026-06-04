@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000733] (realsense_line_follower) JobQueued: {'identifier': 'realsense_line_follower', 'dependencies': OrderedDict()}
+[0.000806] (realsense_line_follower) JobStarted: {'identifier': 'realsense_line_follower'}
+[0.025646] (realsense_line_follower) JobProgress: {'identifier': 'realsense_line_follower', 'progress': 'cmake'}
+[0.026801] (realsense_line_follower) JobProgress: {'identifier': 'realsense_line_follower', 'progress': 'build'}
+[0.028171] (realsense_line_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mars/tayota_ws/build/realsense_line_follower', '--', '-j4', '-l4'], 'cwd': '/home/mars/tayota_ws/build/realsense_line_follower', 'env': OrderedDict([('USER', 'mars'), ('SNAP_COMMON', '/var/snap/nvim/common'), ('SNAP_INSTANCE_KEY', ''), ('NVIM', '/run/user/1000/nvim.4442.0'), ('SSH_CLIENT', '100.68.134.123 35974 22'), ('XDG_SESSION_TYPE', 'tty'), ('NVIM_LOG_FILE', '/home/mars/.local/state/nvim/nvim.log'), ('LD_LIBRARY_PATH', '/home/mars/ws_livox/install/livox_ros_driver2/lib:/home/mars/ros2_ws/install/pointcloud_to_laserscan/lib:/home/mars/ros2_ws/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib::/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('SNAP_UID', '1000'), ('SHLVL', '2'), ('MOTD_SHOWN', 'pam'), ('LESS', '-R'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('HOME', '/home/mars'), ('OLDPWD', '/home/mars/tayota_ws/src/realsense_line_follower'), ('SSH_TTY', '/dev/pts/5'), ('SNAP_USER_DATA', '/home/mars/snap/nvim/4780'), ('ZSH', '/home/mars/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('SNAP_REVISION', '4780'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/mars/ros2_ws/install:/home/mars/ws_livox/install'), ('MASON', '/home/mars/.local/share/nvim/mason'), ('LOGNAME', 'mars'), ('SNAP_CONTEXT', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', 'v0.12.2'), ('LG_CONFIG_FILE', '/home/mars/.cache/nvim/astroui-lazygit-config.yml'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('SNAP_INSTANCE_NAME', 'nvim'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mars/.local/share/nvim/mason/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SNAP_DATA', '/var/snap/nvim/4780'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SNAP_COOKIE', 'brS83F07R9XmzgLYyf3otq-zKtfaG2oFNx0CDKItfrnM6rcwMIk5'), ('AMENT_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('SNAP_USER_COMMON', '/home/mars/snap/nvim/common'), ('SNAP_ARCH', 'amd64'), ('SHELL', '/usr/bin/zsh'), ('SNAP_REEXEC', ''), ('MYVIMRC', '/home/mars/.config/nvim/init.lua'), ('SNAP_NAME', 'nvim'), ('PWD', '/home/mars/tayota_ws/build/realsense_line_follower'), ('LC_ALL', 'en_US.UTF-8'), ('SNAP_REAL_HOME', '/home/mars'), ('SSH_CONNECTION', '100.68.134.123 35974 100.120.101.46 22'), ('PYTHONPATH', '/home/mars/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/simple_map_pub/lib/python3.10/site-packages:/home/mars/ros2_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/mars/ros2_ws/install/arduino_motor/lib/python3.10/site-packages:/home/mars/ros2_ws/install/ackermann_keyboard_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP_EUID', '1000'), ('SNAP', '/snap/nvim/4780'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mars/ws_livox/install/livox_ros_driver2:/home/mars/ros2_ws/install/relocalization_3d:/home/mars/ros2_ws/install/pure_pursuit_controller:/home/mars/ros2_ws/install/pointcloud_to_laserscan:/home/mars/ros2_ws/install/pcd_publisher:/home/mars/ros2_ws/install/odom_to_map_tf:/home/mars/ros2_ws/install/ndt_teaser_localizer:/home/mars/ros2_ws/install/map_3d_to_2d:/home/mars/ros2_ws/install/hybrid_astar_planner:/home/mars/ros2_ws/install/four_wd_rover:/home/mars/ros2_ws/install/fast_lio:/home/mars/ros2_ws/install/ackermann_to_motor:/home/mars/ros2_ws/install/simple_map_pub:/home/mars/ros2_ws/install/arduino_motor:/home/mars/ros2_ws/install/ackermann_keyboard_teleop:/opt/ros/humble'), ('EDITOR', 'vim')]), 'shell': False}
+[0.098399] (-) TimerEvent: {}
+[0.150252] (realsense_line_follower) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_follower\x1b[0m\n'}
+[0.198508] (-) TimerEvent: {}
+[0.209293] (realsense_line_follower) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/line_follower.dir/src/main.cpp.o\x1b[0m\n'}
+[0.209975] (realsense_line_follower) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o\x1b[0m\n'}
+[0.299191] (-) TimerEvent: {}
+[0.399651] (-) TimerEvent: {}
+[0.500093] (-) TimerEvent: {}
+[0.601201] (-) TimerEvent: {}
+[0.702676] (-) TimerEvent: {}
+[0.803145] (-) TimerEvent: {}
+[0.906711] (-) TimerEvent: {}
+[1.007445] (-) TimerEvent: {}
+[1.110923] (-) TimerEvent: {}
+[1.213809] (-) TimerEvent: {}
+[1.314314] (-) TimerEvent: {}
+[1.414798] (-) TimerEvent: {}
+[1.516624] (-) TimerEvent: {}
+[1.617646] (-) TimerEvent: {}
+[1.721386] (-) TimerEvent: {}
+[1.823446] (-) TimerEvent: {}
+[1.923966] (-) TimerEvent: {}
+[2.026365] (-) TimerEvent: {}
+[2.126834] (-) TimerEvent: {}
+[2.229483] (-) TimerEvent: {}
+[2.329938] (-) TimerEvent: {}
+[2.433488] (-) TimerEvent: {}
+[2.533945] (-) TimerEvent: {}
+[2.634444] (-) TimerEvent: {}
+[2.737489] (-) TimerEvent: {}
+[2.837954] (-) TimerEvent: {}
+[2.938426] (-) TimerEvent: {}
+[3.038900] (-) TimerEvent: {}
+[3.139927] (-) TimerEvent: {}
+[3.240414] (-) TimerEvent: {}
+[3.340863] (-) TimerEvent: {}
+[3.441363] (-) TimerEvent: {}
+[3.541838] (-) TimerEvent: {}
+[3.642299] (-) TimerEvent: {}
+[3.742775] (-) TimerEvent: {}
+[3.843259] (-) TimerEvent: {}
+[3.943730] (-) TimerEvent: {}
+[4.044189] (-) TimerEvent: {}
+[4.144660] (-) TimerEvent: {}
+[4.245110] (-) TimerEvent: {}
+[4.345597] (-) TimerEvent: {}
+[4.446088] (-) TimerEvent: {}
+[4.546606] (-) TimerEvent: {}
+[4.651432] (-) TimerEvent: {}
+[4.751917] (-) TimerEvent: {}
+[4.852419] (-) TimerEvent: {}
+[4.955689] (-) TimerEvent: {}
+[5.056552] (-) TimerEvent: {}
+[5.157078] (-) TimerEvent: {}
+[5.257568] (-) TimerEvent: {}
+[5.359726] (-) TimerEvent: {}
+[5.460229] (-) TimerEvent: {}
+[5.560954] (-) TimerEvent: {}
+[5.661462] (-) TimerEvent: {}
+[5.761950] (-) TimerEvent: {}
+[5.862449] (-) TimerEvent: {}
+[5.965700] (-) TimerEvent: {}
+[6.068706] (-) TimerEvent: {}
+[6.169183] (-) TimerEvent: {}
+[6.269654] (-) TimerEvent: {}
+[6.370131] (-) TimerEvent: {}
+[6.470597] (-) TimerEvent: {}
+[6.571073] (-) TimerEvent: {}
+[6.671511] (-) TimerEvent: {}
+[6.771994] (-) TimerEvent: {}
+[6.872479] (-) TimerEvent: {}
+[6.972952] (-) TimerEvent: {}
+[7.073448] (-) TimerEvent: {}
+[7.173927] (-) TimerEvent: {}
+[7.276674] (-) TimerEvent: {}
+[7.377173] (-) TimerEvent: {}
+[7.477641] (-) TimerEvent: {}
+[7.578115] (-) TimerEvent: {}
+[7.678620] (-) TimerEvent: {}
+[7.781695] (-) TimerEvent: {}
+[7.882166] (-) TimerEvent: {}
+[7.982625] (-) TimerEvent: {}
+[8.083093] (-) TimerEvent: {}
+[8.146674] (realsense_line_follower) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[8.147038] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.147201] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K>::SharedPtr trigger_pub_;\n'}
+[8.147356] (realsense_line_follower) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.147527] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.147682] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::Bool\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr trigger_pub_;\n'}
+[8.147977] (realsense_line_follower) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.148149] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[8.148304] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::Bool>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K trigger_pub_;\n'}
+[8.148475] (realsense_line_follower) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.148627] (realsense_line_follower) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.157350] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrigger_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.157728] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr \x1b[01;31m\x1b[Ktrigger_pub_\x1b[m\x1b[K;\n'}
+[8.157915] (realsense_line_follower) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.183258] (-) TimerEvent: {}
+[8.283736] (-) TimerEvent: {}
+[8.384270] (-) TimerEvent: {}
+[8.485586] (-) TimerEvent: {}
+[8.586165] (-) TimerEvent: {}
+[8.621052] (realsense_line_follower) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1\x1b[m\x1b[K:\n'}
+[8.621532] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.621727] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K>::SharedPtr trigger_pub_;\n'}
+[8.621887] (realsense_line_follower) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.622039] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.622193] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::Bool\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr trigger_pub_;\n'}
+[8.622345] (realsense_line_follower) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.622525] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[8.622696] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::Bool>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K trigger_pub_;\n'}
+[8.622848] (realsense_line_follower) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.623001] (realsense_line_follower) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.631042] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:35:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrigger_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.631406] (realsense_line_follower) StderrLine: {'line': b'   35 |   rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr \x1b[01;31m\x1b[Ktrigger_pub_\x1b[m\x1b[K;\n'}
+[8.631596] (realsense_line_follower) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.687491] (-) TimerEvent: {}
+[8.698476] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLineFollower::LineFollower()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.698836] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:115:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrigger_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.699013] (realsense_line_follower) StderrLine: {'line': b'  115 |   \x1b[01;31m\x1b[Ktrigger_pub_\x1b[m\x1b[K = create_publisher<std_msgs::msg::Bool>("/red_stop_trigger", 10);\n'}
+[8.699176] (realsense_line_follower) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.704944] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:115:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBool\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.705300] (realsense_line_follower) StderrLine: {'line': b'  115 |   trigger_pub_ = create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KBool\x1b[m\x1b[K>("/red_stop_trigger", 10);\n'}
+[8.705496] (realsense_line_follower) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.705673] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:115:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KLineFollower::create_publisher<<expression error> >(const char [18], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.705840] (realsense_line_follower) StderrLine: {'line': b'  115 |   trigger_pub_ = \x1b[01;31m\x1b[Kcreate_publisher<std_msgs::msg::Bool>("/red_stop_trigger", 10)\x1b[m\x1b[K;\n'}
+[8.706000] (realsense_line_follower) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.706158] (realsense_line_follower) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[8.706319] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.706523] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.706685] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.706843] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:3\x1b[m\x1b[K,\n'}
+[8.707004] (realsense_line_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1\x1b[m\x1b[K:\n'}
+[8.707164] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.707327] (realsense_line_follower) StderrLine: {'line': b'   73 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[8.709883] (realsense_line_follower) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.710091] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.710259] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:115:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.710441] (realsense_line_follower) StderrLine: {'line': b'  115 |   trigger_pub_ = \x1b[01;31m\x1b[Kcreate_publisher<std_msgs::msg::Bool>("/red_stop_trigger", 10)\x1b[m\x1b[K;\n'}
+[8.710608] (realsense_line_follower) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.710763] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:\x1b[m\x1b[K At global scope:\n'}
+[8.710950] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:120:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid LineFollower::publishRedTrigger()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.711111] (realsense_line_follower) StderrLine: {'line': b'  120 | void \x1b[01;31m\x1b[KLineFollower\x1b[m\x1b[K::publishRedTrigger() {\n'}
+[8.711268] (realsense_line_follower) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.711443] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:120:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid LineFollower::publishRedTrigger()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.711611] (realsense_line_follower) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1\x1b[m\x1b[K:\n'}
+[8.711766] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:11:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass LineFollower\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[8.711937] (realsense_line_follower) StderrLine: {'line': b'   11 | class \x1b[01;36m\x1b[KLineFollower\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[8.712093] (realsense_line_follower) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.787664] (-) TimerEvent: {}
+[8.792505] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LineFollower::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.792859] (realsense_line_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:398:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KpublishRedTrigger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.793063] (realsense_line_follower) StderrLine: {'line': b'  398 |     \x1b[01;31m\x1b[KpublishRedTrigger\x1b[m\x1b[K();\n'}
+[8.793240] (realsense_line_follower) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.887827] (-) TimerEvent: {}
+[8.988302] (-) TimerEvent: {}
+[9.088789] (-) TimerEvent: {}
+[9.192671] (-) TimerEvent: {}
+[9.297128] (-) TimerEvent: {}
+[9.400733] (-) TimerEvent: {}
+[9.503686] (-) TimerEvent: {}
+[9.604162] (-) TimerEvent: {}
+[9.704792] (-) TimerEvent: {}
+[9.807482] (-) TimerEvent: {}
+[9.909838] (-) TimerEvent: {}
+[10.010339] (-) TimerEvent: {}
+[10.110841] (-) TimerEvent: {}
+[10.211308] (-) TimerEvent: {}
+[10.311783] (-) TimerEvent: {}
+[10.389589] (realsense_line_follower) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:76: CMakeFiles/line_follower.dir/src/main.cpp.o] Error 1\n'}
+[10.389893] (realsense_line_follower) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[10.411938] (-) TimerEvent: {}
+[10.512413] (-) TimerEvent: {}
+[10.612883] (-) TimerEvent: {}
+[10.713332] (-) TimerEvent: {}
+[10.813781] (-) TimerEvent: {}
+[10.914245] (-) TimerEvent: {}
+[11.014707] (-) TimerEvent: {}
+[11.115180] (-) TimerEvent: {}
+[11.215648] (-) TimerEvent: {}
+[11.316115] (-) TimerEvent: {}
+[11.416565] (-) TimerEvent: {}
+[11.517029] (-) TimerEvent: {}
+[11.617494] (-) TimerEvent: {}
+[11.717951] (-) TimerEvent: {}
+[11.818421] (-) TimerEvent: {}
+[11.918865] (-) TimerEvent: {}
+[12.019324] (-) TimerEvent: {}
+[12.119780] (-) TimerEvent: {}
+[12.220224] (-) TimerEvent: {}
+[12.320729] (-) TimerEvent: {}
+[12.421211] (-) TimerEvent: {}
+[12.521707] (-) TimerEvent: {}
+[12.622212] (-) TimerEvent: {}
+[12.722778] (-) TimerEvent: {}
+[12.823297] (-) TimerEvent: {}
+[12.923798] (-) TimerEvent: {}
+[13.024273] (-) TimerEvent: {}
+[13.124734] (-) TimerEvent: {}
+[13.225183] (-) TimerEvent: {}
+[13.325655] (-) TimerEvent: {}
+[13.426122] (-) TimerEvent: {}
+[13.526601] (-) TimerEvent: {}
+[13.627076] (-) TimerEvent: {}
+[13.727503] (-) TimerEvent: {}
+[13.827971] (-) TimerEvent: {}
+[13.928455] (-) TimerEvent: {}
+[14.029112] (-) TimerEvent: {}
+[14.132709] (-) TimerEvent: {}
+[14.233188] (-) TimerEvent: {}
+[14.333659] (-) TimerEvent: {}
+[14.434128] (-) TimerEvent: {}
+[14.534598] (-) TimerEvent: {}
+[14.635071] (-) TimerEvent: {}
+[14.735562] (-) TimerEvent: {}
+[14.836050] (-) TimerEvent: {}
+[14.936506] (-) TimerEvent: {}
+[15.036971] (-) TimerEvent: {}
+[15.137464] (-) TimerEvent: {}
+[15.237935] (-) TimerEvent: {}
+[15.338420] (-) TimerEvent: {}
+[15.438888] (-) TimerEvent: {}
+[15.539355] (-) TimerEvent: {}
+[15.562558] (realsense_line_follower) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1\n'}
+[15.563188] (realsense_line_follower) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2\n'}
+[15.563452] (realsense_line_follower) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.567770] (realsense_line_follower) CommandEnded: {'returncode': 2}
+[15.590531] (realsense_line_follower) JobEnded: {'identifier': 'realsense_line_follower', 'rc': 2}
+[15.601589] (-) EventReactorShutdown: {}

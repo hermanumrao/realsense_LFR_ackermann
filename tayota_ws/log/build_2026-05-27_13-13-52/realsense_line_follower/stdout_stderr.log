@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target line_follower[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o[0m
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:[m[K In member function ‘[01m[Kbool LineFollower::detectLineContour(const cv::Mat&, double&, double&)[m[K’:
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:230:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ was not declared in this scope
+  230 |   for (size_t i = 0; i < [01;31m[Kcontours[m[K.size(); i++) {
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:243:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcontourArea[m[K’?
+  243 |   auto contour = cv::[01;31m[Kcontours[m[K[idx];
+      |                      [01;31m[K^~~~~~~~[m[K
+      |                      [32m[KcontourArea[m[K
+gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,61 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/line_follower.dir/src/line_follower.cpp.o[0m
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:546:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  546 | publishCommand[01;31m[K([m[K"SERVO190");
+      |               [01;31m[K^[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:547:20:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+  547 | publishRedTrigger()[01;31m[K;[m[K
+      |                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/include/realsense_line_follower/line_follower.hpp:3[m[K,
+                 from [01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:1[m[K:
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:549:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  549 | [01;31m[KRCLCPP_WARN[m[K(get_logger(),
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:549:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  549 | [01;31m[KRCLCPP_WARN[m[K(get_logger(),
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:555:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  555 | [01;31m[Kreturn[m[K;
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:556:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  556 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:561:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg[m[K’ was not declared in this scope
+  561 | bool found = detectLineContour([01;31m[Kimg[m[K, steering, width);
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:561:14:[m[K [01;31m[Kerror: [m[K‘[01m[KdetectLineContour[m[K’ was not declared in this scope
+  561 | bool found = [01;31m[KdetectLineContour[m[K(img, steering, width);
+      |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:562:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  562 | [01;31m[Kif[m[K (found) {
+      | [01;31m[K^~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:572:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  572 | [01;31m[Kif[m[K (!found) {
+      | [01;31m[K^~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:655:13:[m[K [01;31m[Kerror: [m[K‘[01m[KservoFromError[m[K’ was not declared in this scope
+  655 | int servo = [01;31m[KservoFromError[m[K(steering);
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:657:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  657 | publishCommand[01;31m[K([m[K"SERVO1" + std::to_string(servo));
+      |               [01;31m[K^[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:659:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  659 | [01;31m[Kif[m[K (width > 0.30) {
+      | [01;31m[K^~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:661:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  661 | } [01;31m[Kelse[m[K {
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/mars/tayota_ws/src/realsense_line_follower/src/line_follower.cpp:664:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  664 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/line_follower.dir/build.make:90: CMakeFiles/line_follower.dir/src/line_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/line_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
