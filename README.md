@@ -43,6 +43,12 @@ The robot uses:
 
 ---
 
+## Configs:
+
+Please refer: https://github.com/hermanumrao/realsense_LFR_ackermann/tree/main/tayota_ws/src/realsense_line_follower
+
+---
+
 ## System Architecture
 
 ```
@@ -242,7 +248,7 @@ Bug reports, feature requests, and pull requests are welcome and appreciated.
 
 ## License
 
-This project does not currently specify a license. Please contact the author for usage permissions.
+You are free to modify and distribute just mention my name.
 
 ---
 
